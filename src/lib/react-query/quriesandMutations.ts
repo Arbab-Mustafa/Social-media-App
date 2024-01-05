@@ -4,16 +4,16 @@ import {
   useQuery,
   // useQuery,
   useQueryClient,
-} from '@tanstack/react-query';
+} from "@tanstack/react-query";
 import {
   createPost,
   createUserAccount,
   getRecentPosts,
   signInAccount,
-  signoutAccount,
-} from '../appwrite/api';
-import { INewPost, INewUser } from '@/types';
-import { QUERY_KEYS } from './queryKeys';
+  signOutAccount,
+} from "../appwrite/api";
+import { INewPost, INewUser } from "@/types";
+import { QUERY_KEYS } from "./queryKeys";
 
 export function useCreateUserAccount() {
   return useMutation({
@@ -30,7 +30,7 @@ export function useSignInAccount() {
 
 export function useSignOutAccount() {
   return useMutation({
-    mutationFn: signoutAccount,
+    mutationFn: signOutAccount,
   });
 }
 
