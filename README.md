@@ -1,1 +1,1 @@
-A simple Social media App using React, Redux, Appwrite, and shadcdn.
+A simple Social media App using React, Redux, Appwrite, and shadcdn.  
